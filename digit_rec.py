@@ -10,7 +10,7 @@ x_test = df_test.iloc[:, 1 :]
 y_test = df_test['7']
 y_test.head()
 
-df_train = pd.read_csv('train.csv')
+df_train = pd.read_csv('train.csv') ## https://www.kaggle.com/c/digit-recognizer/data?select=train.csv -- training dataset
 print(df_train.shape)
 
 
